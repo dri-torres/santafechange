@@ -46,6 +46,7 @@ yarn-error.log
 
 # Visual Studio Code
 .vscode/*
+.vs/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -68,3 +69,15 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+
+# Node dependencies
+node_modules/
+ClientApp/node_modules/
+dist/
+wwwroot/
